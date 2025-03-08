@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main img,h1,p,input{
+    display: flex;
+    margin: 12px;
+    color: #7f5af0;
+}
+
+p{
+    color: #fffffe;
+}
+
+
+
+body{
+    background-color: #16161a;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    width: 355px;
+    border-radius: 9px;
+    height: 25px;
+    font-size: 20px;
+    background-color: #7f5af0;
+    color: #fffffe;
+}
+
+input::placeholder{
+    color: #fffffe;
+}
